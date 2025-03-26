@@ -10,8 +10,8 @@ Saved into eax, remainder in edx
 
 ## Problem 3
 [.asm file](https://github.com/Gabrielboudreau/assembly/blob/main/assignments/midterm2.asm)
-### Even Number
 
-### Odd Number
+![Screenshot 2025-03-26 124312](https://github.com/user-attachments/assets/00060d4e-a887-4695-aceb-e2f6fd0a1cf3)
+
 
 Message wasn't showing in debugger and I kept getting an error, but I got it to print in the terminal
