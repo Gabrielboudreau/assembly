@@ -1,6 +1,6 @@
 # Midterm sumbission
 ## Problem 1
-[.asm file](url)
+[.asm file](https://github.com/Gabrielboudreau/assembly/blob/main/assignments/midterm1.asm)
 
 ## Problem 2
 
