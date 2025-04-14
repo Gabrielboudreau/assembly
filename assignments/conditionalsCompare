@@ -1,0 +1,42 @@
+section .text
+        global _start
+
+_start:
+
+mov eax, [var1]
+mov ebx, [var2]
+cmp eax, ebx
+jg skip1
+mov eax, ebx
+
+skip1:
+        mov ebx, [var3]
+        cmp eax, ebx
+        jg skip2
+        mov eax, ebx
+
+skip2: 
+        mov ebx, [var4]
+        cmp eax, ebx
+        jg skip3
+        mov eax, ebx
+
+skip3:
+        mov ebx, [var5]
+        cmp eax, ebx
+        jg skip4
+        mov eax, ebx
+
+skip4:
+        mov [result], eax
+        mov eax, 1
+        int 0x80
+
+segment .bss
+        result resb 1
+section .data
+        var1 DB 2
+        var2 DB 5
+        var3 DB 9
+        var4 DB 1
+        var5 DB 6
