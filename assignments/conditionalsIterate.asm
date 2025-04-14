@@ -1,5 +1,5 @@
-section .text
-        global _start
+section .text             ; other code is here https://github.com/Gabrielboudreau/assembly/blob/main/assignments/conditionalsCompare    
+        global _start     ; I can only share one link per submission
 
 _start: 
 
