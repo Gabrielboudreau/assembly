@@ -28,4 +28,5 @@ var4 .space 4
 @Each instrcution in ARM is relatively simple making it easy to walk through the code
 @ARM is faster and more effiecient with power meaning for extremely limited quantities
 @or precise coding it could be more effective
-@https://www.loom.com/share/e6506da7a3d140ffa9cca146b2e48046?sid=9ad84301-402d-4fe1-af6b-ee12648a466f 
+@Video: 
+@ https://www.loom.com/share/e6506da7a3d140ffa9cca146b2e48046?sid=9ad84301-402d-4fe1-af6b-ee12648a466f 
